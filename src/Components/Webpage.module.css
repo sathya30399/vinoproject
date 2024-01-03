@@ -1,0 +1,229 @@
+.section_content{
+    border: 1px solid;
+    max-width: 100%;
+}
+.section_content_menu{
+    border: 0px solid;
+    display: flex;
+    padding: 2% 3%;
+}
+.section_content_anchortag{
+   border: 0px solid;
+}
+.anchortag_icon{
+    font-size: 10px;
+}
+.third_anchortag{
+   font-weight: 800;
+}
+.section_content_flex_container{
+    border: 0px solid;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1% 1%;
+}
+.section_content_flexc_aside{
+    border: 0px solid #00000026;
+    flex-basis: 25%;
+    height: 1500px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 1px hwb(0deg 61.96% 38.04% / 83%);
+
+}
+.section_content_flexc_card{
+    border: 0px solid;
+    flex-basis: 70%;
+}
+.section_content_flexc_subc{
+    max-width: 80%;
+    border-bottom: 3px solid #D1E3FF;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 6%;
+}
+.filter{
+    border: 0px solid;
+    flex-basis: 40%;
+    font-weight: 900;
+   
+}
+.clear{
+    border: 0px solid;
+    flex-basis: 40%;
+    font-weight: lighter;
+    color: #9E9E9E;
+   
+}
+.filter_locality input{
+   margin: 5%;
+   color: #BBBBBB;
+}
+.filter_locality h3{
+    margin: 8% 5%;
+}
+.filter_locality h4{
+    margin: 8% 5%;
+}
+.filter_locality_flex_sub span::before{
+    content: url("../assets/locationcircle.jpg");
+    
+}
+.filter_locality_flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.filter_locality_flex_sub{
+    flex-basis: 100%;
+}
+.filter_price_flex{
+    border: 0px solid;
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+.filter_price_flex_sub{
+    flex-basis: 100%;
+}
+.filter_price_flex_sub_secspan{
+    padding-left: 28%;
+    color: #010101;
+}
+.filter_user_flex{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+.filter_user_flex_sub{
+    flex-basis: 100%;
+}
+.filter_user_flex_sub_secspan{
+    padding: 0% 12%;
+    font-size: 16px;
+    color: #010101;
+}
+.filter_user_flex_sub_thirdspan{
+    padding: 0% 21%;
+    font-size: 16px;
+    color: #010101;
+}
+.flexc_card_para{
+  font-size: 15px;
+}
+.flexc_card_para_icon{
+  font-size: 25px;
+  margin: -1% 0;
+}
+.flexc_card_para_inpara{
+ border-left: 2px solid #707070;
+ display: inline;
+ padding-left: 10px; 
+ margin-left: 1%;
+}
+.flexc_card_flexc{
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    margin:2% 0;
+    box-shadow: 5px 5px 10px 1px hwb(0deg 61.96% 38.04% / 83%);
+    border-radius: 1%;
+    
+}
+.flexc_card_flexc_img{
+    border: 0px solid;
+    flex-basis: 30%;
+    padding: 3% 1%;
+}
+.flexc_card_flexc_content{
+    border: 0px solid;
+    flex-basis: 60%;
+}
+.flexc_card_flexc_sub{
+    
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #C5C0C0;
+    border-bottom: 1px solid #C5C0C0;
+}
+.flexc_card_flexc_sub_haircut{
+    border:0px solid #0C0B0B;
+    flex-basis: 70%;
+    padding: 2% 0;
+}
+.flexc_card_flexc_sub_c{
+    display: flex;
+    justify-content: space-around;
+    border: 0px solid;
+    flex-basis: 30%;
+    padding: 1% 0;
+}
+.flexc_card_flexc_sub_c div span{
+    display: block;
+}
+.flexc_card_flexc_sub_c_a{
+    border: 1px solid;
+    border-radius: 10%;
+    padding: 5% 10%;
+    background-color: black;
+    
+}
+.flexc_card_flexc_sub_c div a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.flexc_card_flexc_finaldiv{
+    border: 1px solid #FFFFFF;
+    margin-bottom: 1%;
+    padding: 2% 10%;
+    box-shadow: 5px 5px 10px 1px hwb(0deg 61.96% 38.04% / 83%);
+    border-radius: 1%;
+    
+}
+.flexc_card_flexc_finaldiv a{
+    border: 1px solid #C4C4C4;
+    padding: 1% 2%;
+    margin: 0% 1%;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+.flexc_card_flexc_finaldiv a:first-child{
+    border:1px solid;
+}
+.flexc_card_flexc_finaldiv span{
+      padding: 1%;
+      color: black;
+}
+.section_content_explore{
+    border: 0px solid;
+    padding: 1%;
+}
+.section_content_explore h1{
+    border: 0px solid;
+    padding: 0% 1%;
+}
+.section_content_explore p{
+    border: 0px solid;
+    padding: 0 1%;
+}
+.section_content_popular h1{
+    padding: 2%;
+}
+.section_content_popular_li{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.section_content_popular_li div{
+    padding:0 2%;
+}
+.section_content_popular_li li{
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #9F9F9F;
+}
